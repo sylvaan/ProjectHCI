@@ -1,0 +1,40 @@
+* {
+    margin: auto;
+    padding: 0;
+  }
+
+header {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #010326;
+}
+
+.header-left {
+    margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right{
+    margin-left: 1200px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcomemsg {
+    margin: auto;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/background_island.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

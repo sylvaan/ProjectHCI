@@ -3,12 +3,6 @@
   padding: 0;
 }
 
-body {
-  background: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/25/455639-fantasy_art-artwork-floating_island.jpg ");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -68,15 +62,7 @@ nav {
   padding: 0;
   justify-content: center;
   align-items: center;
-}
-
-.main-area {
-  margin-left: 200px;
-  margin-right: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #021d47;
+  background-image: url(../assets/background_island.jpg);
 }
 
 .main-text > h1 {
