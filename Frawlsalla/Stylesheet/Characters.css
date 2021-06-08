@@ -14,75 +14,66 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #010326;
+  max-width: 100%;
 }
 
-.dropdown {
-  margin-left: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.dropdown > img {
-  height: 60%;
-  width: 60%;
+.navigation-options > img {
+  max-width: 2vw;
+  min-width: 2vw;
+  height: auto;
 }
 
 .navigation-options {
-  margin-left: 50px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 350px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .navigation-options > a {
   color: #fdca40;
-  font-size: 25px;
-  text-indent: 20px;
+  font-size: 1.5vw;
+  margin-left: 2%;
+  display: flex;
+  justify-content: space-between;
+  text-indent: 10px;
   text-decoration: none;
 }
 
-.navigation-options > p {
-  color: #fdca40;
-  font-size: 30px;
-  text-indent: 15px;
+.play-button {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  display: flex;
+  max-width: 100%;
+  max-height: auto;
 }
 
-.play-button {
-  margin-left: 1200px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.play-button > a > img {
+  max-width: 13vw;
+  min-width: 13vw;
+  height: auto;
 }
 
 .main-area {
-  margin: auto;
   display: flex;
   padding: 0;
   justify-content: center;
   align-items: center;
-  margin-left: 200px;
-  margin-right: 200px;
-  height: 1000px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: auto;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: #021d47;
 }
 
 .main-text > h1 {
-  margin-top: -30px;
-  margin-bottom: 50px;
+  margin-top: 5%;
+  margin-bottom: 13%;
   color: #fdca40;
-  font-size: 54px;
+  font-size: 3.5vw;
   text-align: center;
 }
 
@@ -90,36 +81,38 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: -20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  outline: auto;
 }
 
 .char1 > img {
-  height: 300px;
-  width: 300px;
-  margin-left: -100px;
+  max-width: 20%;
+  height: 20%;
+  margin-left: 5%;
   outline: auto;
 }
 
 .char1-text {
   display: flex;
-  margin-top: 30px;
-  margin-left: 20px;
+  margin-top: 2%;
+  margin-left: 1%;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
 .char1-text > h2 {
-  margin-top: -30px;
-  margin-bottom: 20px;
-  margin-left: 0px;
+  margin-top: -2%;
+  margin-bottom: 3%;
+  margin-left: 0%;
   text-decoration: underline;
   color: #fdca40;
-  font-size: 42px;
+  font-size: 2vw;
 }
 
 .char1-text > p {
-  font-size: 20px;
+  font-size: 1.3vw;
   color: #fdca40;
 }
 
@@ -127,35 +120,76 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: -20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  outline: auto;
 }
 
 .char2 > img {
-  height: 300px;
-  width: 300px;
-  margin-left: -248px;
+  max-width: 20%;
+  height: 20%;
+  margin-left: 5%;
   outline: auto;
 }
 
 .char2-text {
   display: flex;
-  margin-top: 30px;
-  margin-left: 20px;
+  margin-top: 2%;
+  margin-left: 1%;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
 .char2-text > h2 {
-  margin-top: -30px;
-  margin-bottom: 20px;
-  margin-left: 0px;
+  margin-top: -2%;
+  margin-bottom: 3%;
+  margin-left: 0%;
   text-decoration: underline;
   color: #fdca40;
-  font-size: 42px;
+  font-size: 2vw;
 }
 
 .char2-text > p {
-  font-size: 20px;
+  font-size: 1.3vw;
+  color: #fdca40;
+}
+
+.char3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  outline: auto;
+}
+
+.char3 > img {
+  max-width: 20%;
+  height: 20%;
+  margin-left: 5%;
+  outline: auto;
+}
+
+.char3-text {
+  display: flex;
+  margin-top: 2%;
+  margin-left: 1%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.char3-text > h2 {
+  margin-top: -2%;
+  margin-bottom: 3%;
+  margin-left: 0%;
+  text-decoration: underline;
+  color: #fdca40;
+  font-size: 2vw;
+}
+
+.char3-text > p {
+  font-size: 1.3vw;
   color: #fdca40;
 }
