@@ -1,0 +1,56 @@
+* {
+  margin: auto;
+  padding: 0;
+}
+
+body {
+  background: url("../assets/background_island.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #010326;
+  max-width: 100%;
+}
+
+.navigation-options > img {
+  max-width: 2vw;
+  min-width: 2vw;
+  height: auto;
+}
+
+.navigation-options {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  display: flex;
+}
+
+.navigation-options > a {
+  color: #fdca40;
+  font-size: 1.5vw;
+  margin-left: 2%;
+  display: flex;
+  justify-content: space-between;
+  text-indent: 10px;
+  text-decoration: none;
+}
+
+.play-button {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  display: flex;
+  max-width: 100%;
+  max-height: auto;
+}
+
+.play-button > a > img {
+  max-width: 13vw;
+  min-width: 13vw;
+  height: auto;
+}

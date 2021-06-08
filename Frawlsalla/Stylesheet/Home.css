@@ -1,40 +1,126 @@
 * {
-    margin: auto;
-    padding: 0;
-  }
-
-header {
-    display: flex;
+  margin: auto;
+  padding: 0;
+}
+nav {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #010326;
 }
-
+body {
+  background-color: #021d47;
+}
 .header-left {
-    margin-left: 10px;
+  margin-left: 10px;
   margin-top: 5px;
   margin-bottom: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.header-right{
-    margin-left: 1200px;
+.navigation-options {
+  margin-left: 70px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigation-options > a {
+  color: #fdca40;
+  font-size: 25px;
+  text-indent: 20px;
+  text-decoration: none;
+}
+.navigation-options > p {
+  color: #fdca40;
+  font-size: 30px;
+  text-indent: 15px;
+}
+.header-right {
+  margin-left: 1200px;
   margin-top: 5px;
   margin-bottom: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .welcomemsg {
-    margin: auto;
+  margin: auto;
   display: flex;
   padding: 0;
   justify-content: center;
   align-items: center;
   background-image: url(../assets/background_island.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  background-position: center;
+  height: 600px;
+}
+.main-title {
+  margin-top: 20px;
+}
+.main-title > h1 {
+  text-align: center;
+  color: #fdca40;
+}
+.main-body {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.main-body-left {
+  border: 2px;
+  padding-right: 30px;
+  background-image: url(../assets/about\ background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 200px;
+  width: 550px;
+  filter: brightness(70%);
+}
+.main-body-left > p {
+  display: block;
+  color: #fdca40;
+  width: 80%;
+}
+.main-body-left > h3 {
+  color: #fdca40;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+hr {
+  background-color: #fdca40;
+  height: 1px;
+  margin-top: 100px;
+}
+.main-body-lowercontent {
+  background-image: url(../assets/Battle\ Pass.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 150px;
+  width: 550px;
+}
+.main-body-lowercontent > h2 {
+  color: #fdca40;
+}
+footer {
+  background-color: #010326;
+  padding-top: 10px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+.footer-container > p {
+  color: #fdca40;
+  text-align: center;
+}
+.footer-container > img {
+  width: 10%;
+  height: 10%;
+  position: relative;
+  left: 670px;
 }
