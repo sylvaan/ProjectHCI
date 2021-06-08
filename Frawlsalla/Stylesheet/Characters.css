@@ -70,7 +70,7 @@ nav {
   align-items: center;
   margin-left: 200px;
   margin-right: 200px;
-  height: 1000px;
+  height: 1500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,6 +156,43 @@ nav {
 }
 
 .char2-text > p {
+  font-size: 20px;
+  color: #fdca40;
+}
+
+.char3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.char3 > img {
+  height: 300px;
+  width: 300px;
+  margin-left: -248px;
+  outline: auto;
+}
+
+.char3-text {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.char3-text > h2 {
+  margin-top: -30px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  text-decoration: underline;
+  color: #fdca40;
+  font-size: 42px;
+}
+
+.char3-text > p {
   font-size: 20px;
   color: #fdca40;
 }
