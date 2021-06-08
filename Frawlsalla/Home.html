@@ -4,17 +4,31 @@
 	<meta charset="utf-8">
 	<title>Welcome to Frawlsalla</title>
 	<link rel="stylesheet" href="./Stylesheet/Home.css">
-	<script src="./Script/Script.js"></script>
+	<link rel="stylesheet" href="./Stylesheet/slick.css">
+	<link rel="stylesheet" href="./Stylesheet/slick-theme.css">
 </head>
 <body>
-	<header>
+	<script src="./Script/Script.js"></script>
+	<script src="./lib/jquery.js"></script>
+	<script src="./Script/slick.js"></script>
+	<script src="./Script/slick.min.js"></script>
+	<nav>
 		<div class="header-left">
 			<img class="dropdown" src="./assets/Dropdown Icon.png">
 		</div>
-		<div class="header-right">
-			<img class="playbutton" src="./assets/Play Button.png">
+		<div class="navigation-options">
+			<a href="./Home.html">Home</a>
+			<p>|</p>
+			<a href="./Screenshots.html">Screenshot</a>
+			<p>|</p>
+			<a href="./Events.html">Events</a>
+			<p>|</p>
+			<a href="./Characters.html">Characters</a>
 		</div>
-	</header>
+		<div class="header-right">
+			<a href="./Playnow.html"><img src="assets/Play Button.png"></a>
+		</div>
+	</nav>
 	<div >
 		<div class="welcomemsg">
 			<img class="logo" src="./assets/Frawlsalla logo.png">
@@ -24,12 +38,14 @@
 		</div>
 		<div class="main-body">
 			<div class="main-body-left">
-				<pre>
+				<p>
 					Frawlsalla is a free-to-play 2D Platform Fighting game that
 					has more than 13 million base players and over 40 million
 					downloads. Frawlsalla is the second most played game that
 					was produced by Nychta Software.
-				</pre>
+				</p>
+				<hr />
+				<h3>About</h3>
 			</div>
 			<div class="main-body-right">
 				<div class="sliders">
@@ -42,8 +58,10 @@
 		</div>
 	</div>
 	<footer>
-		<img class="logo-smol" src="./assets/Frawlsalla logo.png">
-		<p>Property of Nychta Software™. All rights reserved</p>	
+		<div class="footer-container">
+			<img class="logo-smol" src="./assets/Frawlsalla logo.png">
+			<p>Property of Nychta Software™. All rights reserved</p>
+		</div>	
 	</footer>
 </body>
 </html>
