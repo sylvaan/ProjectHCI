@@ -17,42 +17,57 @@ nav {
   max-width: 100%;
 }
 
-.navigation-options > img {
-  max-width: 2vw;
-  min-width: 2vw;
-  height: auto;
+body {
+  background-color: #021d47;
 }
-
-.navigation-options {
+.header-left {
   margin-top: 1%;
   margin-bottom: 1%;
   margin-left: 1%;
   display: flex;
 }
-
-.navigation-options > a {
+.drop {
+  display: inline-block;
+  cursor: pointer;
+}
+.dropdown {
+  max-width: 2vw;
+  min-width: 2vw;
+  height: auto;
+}
+.dropcontent {
+  display: none;
+  position: absolute;
+  background-color: #021d47;
+  z-index: 1;
+}
+.dropcontent a {
+  color: #fdca40;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 12px 16px;
+}
+.drop:hover .dropcontent{
+  display:inline-block;
+}
+.header-left > a {
   color: #fdca40;
   font-size: 1.5vw;
   margin-left: 2%;
   display: flex;
   justify-content: space-between;
-  text-indent: 1vw;
+  text-indent: 10px;
   text-decoration: none;
 }
-
-.play-button {
+.header-right {
   margin-top: 0%;
   margin-bottom: 0%;
   margin-right: 0%;
   display: flex;
   max-width: 100%;
   max-height: auto;
-}
 
-.play-button > a > img {
-  max-width: 13vw;
-  min-width: 13vw;
-  height: auto;
 }
 
 .main-area {
@@ -192,4 +207,21 @@ nav {
 .char3-text > p {
   font-size: 1.3vw;
   color: #fdca40;
+}
+
+footer { 
+  background-color: #010326;
+  padding-top: 10px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+.footer-container > p {
+  color: #fdca40;
+  text-align: center;
+}
+.footer-container > img {
+  width: 10%;
+  height: 10%;
+  position: relative;
+  left: 670px;
 }

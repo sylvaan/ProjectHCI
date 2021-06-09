@@ -1,0 +1,108 @@
+* {
+    margin: auto;
+    padding: 0;
+  }
+  
+  body {
+    background: url("../assets/background_island.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010326;
+    max-width: 100%;
+  }
+  
+  body {
+    background-color: #021d47;
+  }
+  .header-left {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    display: flex;
+  }
+  .drop {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .dropdown {
+    max-width: 2vw;
+    min-width: 2vw;
+    height: auto;
+  }
+  .dropcontent {
+    display: none;
+    position: absolute;
+    background-color: #021d47;
+    z-index: 1;
+  }
+  .dropcontent a {
+    color: #fdca40;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 12px 16px;
+  }
+  .drop:hover .dropcontent{
+    display:inline-block;
+  }
+  .header-left > a {
+    color: #fdca40;
+    font-size: 1.5vw;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    text-indent: 10px;
+    text-decoration: none;
+  }
+  .header-right {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    display: flex;
+    max-width: 100%;
+    max-height: auto;
+  
+  }
+  .main-area {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #021d47;
+  }
+  
+  .main-text > h1 {
+    margin-top: 5%;
+    margin-bottom: 13%;
+    color: #fdca40;
+    font-size: 3.5vw;
+    text-align: center;
+  }
+  footer { 
+    background-color: #010326;
+    padding-top: 10px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+  .footer-container > p {
+    color: #fdca40;
+    text-align: center;
+  }
+  .footer-container > img {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    left: 670px;
+  }

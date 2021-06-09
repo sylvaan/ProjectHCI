@@ -7,8 +7,6 @@
 	<link rel="stylesheet" href="./Stylesheet/Home.css">
 </head>
 <body>
-	<script src="./Script/Script.js"></script>
-	<script src="./Script/jquery.js"></script>
 	<nav>
 		<div class="header-left">
 			<div class="drop">
@@ -38,18 +36,28 @@
 		</div>
 		<div class="main-body">
 			<div class="main-body-left">
-				<p>
-					Frawlsalla is a free-to-play 2D Platform Fighting game that
-					has more than 13 million base players and over 40 million
-					downloads. Frawlsalla is the second most played game that
-					was produced by Nychta Software.
-				</p>
-				<hr />
-				<h3>About</h3>
+				<div class="main-body-left-text">
+					<p>
+						Frawlsalla is a free-to-play 2D Platform Fighting game that
+						has more than 13 million base players and over 40 million
+						downloads. Frawlsalla is the second most played game that
+						was produced by Nychta Software.
+					</p>
+					<hr />
+					<h3>About</h3>
+				</div>
 			</div>
 			<div class="main-body-right">
-				<div class="sliders">
-					<h2>Introducing new swamp map!</h2>
+				<h2>Introducing new maps & events!</h2>
+				<div class="sliders-wrapper">
+					<button id="prev"><</button>
+					<div class="sliders">
+						<div><img src="./assets/event1.jpg"></div>
+						<div><img src="./assets/event2.jpg"></div>
+						<div><img src="./assets/event3.jpg"></div>
+						<div><img src="./assets/event4.jpg"></div>
+					</div>
+					<button id="next">></button>
 				</div>
 				<div class="main-body-lowercontent">
 					<h2>New Battle Pass is released!!</h2>
@@ -63,5 +71,7 @@
 			<p>Property of Nychta Software™. All rights reserved</p>
 		</div>	
 	</footer>
+	<script src="./Script/jquery.js"></script>
+	<script src="./Script/Home.js"></script>
 </body>
 </html>

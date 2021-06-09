@@ -74,7 +74,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  height: 600px;
+  height: 500px;
 }
 .main-title {
   margin-top: 20px;
@@ -83,6 +83,7 @@ body {
 .main-title > h1 {
   text-align: center;
   color: #fdca40;
+  font-size: 400%;
 }
 .main-body {
   display: flex;
@@ -91,30 +92,47 @@ body {
   margin-top: 40px;
 }
 .main-body-left {
-  border: 2px;
-  padding-right: 30px;
+  padding-left: 30px;
   background-image: url(../assets/about\ background.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  height: 200px;
+  width: 40%;
+  height: 400px;
+  opacity: 0.6;
+}
+.main-body-right h2{
+  color: #fdca40;
+  font-size: 250%;
+}
+.main-body-left-text {
+  color: #fdca40;
+  padding-top: 120px;
+  padding-right: 40px;
+}
+.main-body-left-text p {
+  font-size: 140%;
+  text-align: justify;
+  padding-bottom: 150px;
+}
+.sliders-wrapper{
+  margin: 0 auto;
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+.sliders {
+  display: flex;
   width: 550px;
-  filter: brightness(70%);
+  overflow: hidden;
 }
-.main-body-left > p {
-  display: block;
-  color: #fdca40;
-  width: 80%;
-}
-.main-body-left > h3 {
-  color: #fdca40;
-  padding-left: 50px;
-  padding-bottom: 20px;
-}
-hr {
-  background-color: #fdca40;
-  height: 1px;
-  margin-top: 100px;
+.sliders img {
+  height: 280px;
+  width: 550px;
+  object-fit: cover;
 }
 .main-body-lowercontent{
   background-image: url(../assets/Battle\ Pass.png);
@@ -123,6 +141,7 @@ hr {
   background-position: center;
   height: 150px;
   width: 550px;
+  margin-top: 25px;
 }
 .main-body-lowercontent > h2 {
   color: #fdca40;
