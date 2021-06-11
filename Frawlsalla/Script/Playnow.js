@@ -19,10 +19,12 @@ function validateForm(){
     if(email.value == ''){
         error.push("Please Enter Email\n");
         errorCount++;
-    }else if (!email.contains('@')){
-        error.push("Email Invalid\n");
-        errorCount++;
-    }
+    }//else if (!email.value.contains("@")){
+    //     error.push("Email Invalid\n");
+    //     errorCount++;
+    // }
+    //unable to resolve this one as the function contains in this case is for node,
+    //not content
 
     if(pass.value == ''){
         error.push("Please Enter Password\n");
@@ -47,19 +49,19 @@ function validateForm(){
     var GenderNon = document.getElementById('Pref');
     var Gender;
 
-    if (GenderMale.value != ''){
+    if (GenderMale.checked){
         radioCount++;
         Gender = GenderMale.value;
     }
-    if (GenderFemale.value != ''){
+    if (GenderFemale.checked){
         radioCount++;
         Gender = GenderFemale.value;
     }
-    if (GenderOthers.value != ''){
+    if (GenderOthers.checked){
         radioCount++;
         Gender = GenderOthers.value;
     }
-    if (GenderNon.value != ''){
+    if (GenderNon.checked){
         radioCount++;
         Gender = GenderNon.value;
     }
@@ -72,19 +74,19 @@ function validateForm(){
     }
 
     if (server.value == ''){
-        error.push("Please select one server to play\n");
+        error.push("Please select one server to play in\n");
         errorCount++;
     }
 
-    if (!check.value.checked){
+    if (!check.checked){
         error.push("Please check our Terms and Conditions\n");
         errorCount++;
     }
 
-    if (errorCount != 0){
-        alert(error);
-        return;
-    }else{
+
+    if (errorCount == 0){
         alert("Registration Successful");
+    }else{
+        alert(error);
     }
 }
