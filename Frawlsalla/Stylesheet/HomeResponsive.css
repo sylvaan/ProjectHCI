@@ -1,0 +1,32 @@
+@media (max-width: 800px){
+    .header-left > a {
+        display: none;
+    }
+    .dropdown {
+        max-width: 4vw;
+    }
+    .main-title h1 {
+        font-size: 230%;
+    }
+    .main-body {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-body-left {
+        width: 80%;
+    }
+    .main-body-right {
+        padding: 25px;
+    }
+    .logo-smol {
+        margin-left: -300px;
+    }
+    footer {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: 230px;
+    }
+    .footer-container {
+        padding-top: 80px;
+    }
+}
